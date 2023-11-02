@@ -1,0 +1,9 @@
+<ul class="list-reset menu">
+  <li class="menu-item" *ngFor="let item of menulist">
+    <a routerLink="{{ item.routerlink }}"
+       class="menu-item-link">
+      <img class="menu-item-link-icon" src="{{item.imagelink}}" alt="{{item.alttext}}">
+      <p class="menu-item-link-text">{{item.name}}</p>
+    </a>
+  </li>
+</ul>

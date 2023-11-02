@@ -1,0 +1,25 @@
+.menu {
+
+  &-item {
+    margin-bottom: 40px;
+
+    &-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+
+      &-icon {
+        width: auto;
+        height: 28px;
+        margin-right: 10px;
+      }
+
+      &-text {
+        font-family: 'Play';
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--first-color);
+      }
+    }
+  }
+}
