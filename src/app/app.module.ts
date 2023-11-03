@@ -16,6 +16,8 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel.compon
 import { SidenavComponent } from "./components/admin-panel/components/sidenav/sidenav.component";
 import { MenuComponent } from './components/admin-panel/components/sidenav/menu/menu.component';
 import { UserComponent } from './components/admin-panel/components/sidenav/user/user.component';
+import { DateComponent } from './components/admin-panel/pages/calendar/date/date.component';
+import { MomentPipe } from './shared/moment.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { UserComponent } from './components/admin-panel/components/sidenav/user/
     SidenavComponent,
     AdminPanelComponent,
     MenuComponent,
-    UserComponent
+    UserComponent,
+    DateComponent,
+    MomentPipe
   ],
   imports: [
     BrowserModule,
